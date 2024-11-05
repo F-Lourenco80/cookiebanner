@@ -1,0 +1,5 @@
+homepage: "https://www.monsido.com"
+documentation: "https://www.monsido.com/documentation"
+versions:
+  - sha: 6691f15719822edb8f4aa0684101414ff2acf425
+    changeNotes: Initial release.
