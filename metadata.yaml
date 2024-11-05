@@ -1,5 +1,5 @@
-homepage: "https://www.monsido.com"
-documentation: "https://www.monsido.com/documentation"
+homepage: "https://www.acquia.com/products/acquia-optimize"
+documentation: "https://docs.acquia.com/acquia-optimize/overview"
 versions:
   - sha: 6691f15719822edb8f4aa0684101414ff2acf425
     changeNotes: Initial release.
