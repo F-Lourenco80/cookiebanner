@@ -115,8 +115,17 @@ const onUserConsent = (consent) => {
 };
 
 const main = () => {
-  setDefaultConsentState([]);
-  
+  setDefaultConsentState({
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    security_storage: 'denied',
+    wait_for_update: 500
+  });
+
   const monsidoConsentManager = copyFromWindow("monsidoConsentManager");
   log('consents:', monsidoConsentManager);
   callInWindow('MonsidoCookieOnAccept', () => {
