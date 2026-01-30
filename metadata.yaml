@@ -9,4 +9,4 @@ description: This script integrates the Acquia Web Governance script that can in
 vendor:
   name: F. Lourenco
   serverTrust: true
-needs=[non_optional_permissions]
+needs: [non_optional_permissions]
