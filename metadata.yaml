@@ -1,5 +1,12 @@
-homepage: "https://www.acquia.com/products/acquia-optimize"
-documentation: "https://docs.acquia.com/acquia-optimize/overview"
+homepage: "https://www.acquia.com/products/acquia-web-governance"
+documentation: "https://docs.acquia.com/web-governance/overview"
 versions:
   - sha: 6691f15719822edb8f4aa0684101414ff2acf425
     changeNotes: Initial release.
+name: Web Governance
+displayName: Web Governance
+description: This script integrates the Acquia Web Governance script that can include the Consent Manager into your website. It initializes the Monsido Web Governance tracking and consent management functionalities. Replace "insert-your-monsido-token-here" with your unique Monsido token to enable features such as cookie consent banners, privacy regulation compliance (GDPR, CCPA), and various website analytics. The script ensures that your website adheres to web accessibility standards and data privacy regulations by providing visitors with transparent control over their data preferences.
+vendor:
+  name: F. Lourenco
+  serverTrust: true
+needs=[non_optional_permissions]
